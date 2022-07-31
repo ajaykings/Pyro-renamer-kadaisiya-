@@ -22,22 +22,19 @@ License Link : https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT/blob/main/LICEN
 """
 
 from os import environ
-from asyncio import sleep
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ForceReply, CallbackQuery
-from pyrogram.errors import FloodWait
 import humanize
 from helper.txt import mr
 from helper.database import insert 
 from helper.utils import not_subscribed 
 
-FLOOD = int(environ.get("FLOOD", "10"))
-START_PIC = environ.get("START_PIC", "https://telegra.ph/file/04d08445dce68c9a57b25.jpg")
+START_PIC = environ.get("START_PIC", "https://telegra.ph/file/27e9ed6b222498bd1c177.jpg")
 
 @Client.on_message(filters.private & filters.create(not_subscribed))
 async def is_not_subscribed(client, message):
-    buttons = [[ InlineKeyboardButton(text="📢𝙹𝚘𝚒𝚗 𝙼𝚢 𝚄𝚙𝚍𝚊𝚝𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕📢", url=client.invitelink) ]]
-    text = "**𝚂𝙾𝚁𝚁𝚈 𝙳𝚄𝙳𝙴 𝚈𝙾𝚄𝚁 𝙽𝙾𝚃 𝙹𝙾𝙸𝙽𝙳 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 😔. 𝙿𝙻𝙴𝙰𝚂𝙴 𝙹𝙾𝙸𝙽 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚃𝙾 𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 🙏 **"
+    buttons = [[ InlineKeyboardButton(text="📢 <b>𝙹𝙾𝙸𝙽 𝙼𝚈 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 </b>📢", url=client.invitelink) ]]
+    text = "**😔 𝚂𝙾𝚁𝚁𝚈 𝙵𝚁𝙸𝙴𝙽𝙳 𝚈𝙾𝚄 𝚆𝙴𝚁𝙴 𝙽𝙾𝚃 𝙹𝙾𝙸𝙽𝙴𝙳 𝙼𝚈 𝙲𝙷𝙰𝙽𝙽𝙴𝙻...𝙹𝙾𝙸𝙽 𝙼𝚈 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝚃𝙾 𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 𝙵𝚁𝙸𝙴𝙽𝙳 😎**"
     await message.reply_text(text=text, reply_markup=InlineKeyboardMarkup(buttons))
            
 @Client.on_message(filters.private & filters.command(["start"]))
@@ -45,56 +42,47 @@ async def start(client, message):
     insert(int(message.chat.id))
     await message.reply_photo(
        photo=START_PIC,
-       caption=f"""👋 Hai {message.from_user.mention} \n𝙸'𝚖 𝙰 𝚂𝚒𝚖𝚙𝚕𝚎 𝙵𝚒𝚕𝚎 𝚁𝚎𝚗𝚊𝚖𝚎+𝙵𝚒𝚕𝚎 𝚃𝚘 𝚅𝚒𝚍𝚎𝚘 𝙲𝚘𝚟𝚎𝚛𝚝𝚎𝚛 𝙱𝙾𝚃 𝚆𝚒𝚝𝚑 𝙿𝚎𝚛𝚖𝚊𝚗𝚎𝚗𝚝 𝚃𝚑𝚞𝚖𝚋𝚗𝚊𝚒𝚕 & 𝙲𝚞𝚜𝚝𝚘𝚖 𝙲𝚊𝚙𝚝𝚒𝚘𝚗 𝚂𝚞𝚙𝚙𝚘𝚛𝚝! """,
+       caption=f"""👋 <b>𝙷𝙰𝙸</b> {message.from_user.mention} \n\n<b>𝙸 𝙰𝙼 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝚁𝙴𝙽𝙰𝙼𝙴𝚁 𝙱𝙾𝚃 𝚆𝙸𝚃𝙷 𝙲𝚄𝚂𝚃𝙾𝙼 𝙲𝙰𝙿𝚃𝙸𝙾𝙽 & 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃 𝚃𝙷𝚄𝙼𝙱𝙽𝙰𝙸𝙻 𝚂𝚄𝙿𝙿𝙾𝚁𝚃...🧑‍💻</b>\n\n😎<b>𝙼𝚈 𝙾𝚆𝙽𝙴𝚁  :</b> <b><a href=https://t.me/ajay_king_x>♚ᴀᴊᴀʏ♚</a></b>""",
        reply_markup=InlineKeyboardMarkup( [[
-           InlineKeyboardButton("👼 𝙳𝙴𝚅𝚂 👼", callback_data='dev')
-           ],[
-           InlineKeyboardButton('📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/PYRO_BOTZ'),
-           InlineKeyboardButton('🍂 𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url='https://t.me/PYRO_BOTZ_CHAT')
-           ],[
-           InlineKeyboardButton('🍃 𝙰𝙱𝙾𝚄𝚃', callback_data='about'),
-           InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿', callback_data='help')
-           ]]
+                InlineKeyboardButton("👼 𝙳𝙴𝚅𝚂 👼", callback_data='dev')                
+                ],[
+                InlineKeyboardButton('📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢', url='https://t.me/Tamil_movie_studio'),
+                InlineKeyboardButton('🍿 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 🍿', url='https://t.me/+8LCFCFGUy_JlNDhl')
+                ],[
+                InlineKeyboardButton('🍻 𝙰𝙱𝙾𝚄𝚃 🍻', callback_data='about'),
+                InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿 ℹ️', callback_data='help')
+                ]]
           )
        )
     return
 
-
-@Client.on_message(filters.private & (filters.document | filters.audio | filters.video))
-async def rename_start(client, message):
+@Client.on_message(filters.private &( filters.document | filters.audio | filters.video ))
+async def send_doc(client, message):
     file = getattr(message, message.media.value)
     filename = file.file_name
-    filesize = humanize.naturalsize(file.file_size) 
+    filesize = humanize.naturalsize(file.file_size)
     fileid = file.file_id
-    try:
-        text = f"""**__What do you want me to do with this file.?__**\n\n**File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
-        buttons = [[ InlineKeyboardButton("📝 𝚂𝚃𝙰𝚁𝚃 𝚁𝙴𝙽𝙰𝙼𝙴 📝", callback_data="rename") ],
-                   [ InlineKeyboardButton("✖️ 𝙲𝙰𝙽𝙲𝙴𝙻 ✖️", callback_data="cancel") ]]
-        await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
-        await sleep(FLOOD)
-    except FloodWait as e:
-        await sleep(e.x)
-        text = f"""**__What do you want me to do with this file.?__**\n\n**File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
-        buttons = [[ InlineKeyboardButton("📝 𝚂𝚃𝙰𝚁𝚃 𝚁𝙴𝙽𝙰𝙼𝙴 📝", callback_data="rename") ],
-                   [ InlineKeyboardButton("✖️ 𝙲𝙰𝙽𝙲𝙴𝙻 ✖️", callback_data="cancel") ]]
-        await message.reply_text(text=text, reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(buttons))
-    except:
-        pass
+    await message.reply_text(
+        f"""**𝚆𝙷𝙰𝚃 𝙳𝙾 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝙼𝙴 𝚃𝙾 𝙳𝙾 𝚆𝙸𝚃𝙷 𝚃𝙷𝙸𝚂 𝙵𝙸𝙻𝙴.?**\n\n**𝙵𝙸𝙻𝙴 𝙽𝙰𝙼𝙴** :- `{filename}`\n\n**𝙵𝙸𝙻𝙴 𝚂𝙸𝚉𝙴 :-** `{filesize}`""",
+        reply_to_message_id = message.id,
+        reply_markup = InlineKeyboardMarkup([[ InlineKeyboardButton("📚 𝚁𝙴𝙽𝙰𝙼𝙴 📚",callback_data = "rename")],
+        [InlineKeyboardButton("✖️ 𝙲𝙰𝙽𝙲𝙴𝙻 ✖️",callback_data = "cancel")  ]]))
+
 
 @Client.on_callback_query()
 async def cb_handler(client, query: CallbackQuery):
     data = query.data 
     if data == "start":
         await query.message.edit_text(
-            text=f"""👋 Hai {query.from_user.mention} \n𝙸'𝚖 𝙰 𝚂𝚒𝚖𝚙𝚕𝚎 𝙵𝚒𝚕𝚎 𝚁𝚎𝚗𝚊𝚖𝚎+𝙵𝚒𝚕𝚎 𝚃𝚘 𝚅𝚒𝚍𝚎𝚘 𝙲𝚘𝚟𝚎𝚛𝚝𝚎𝚛 𝙱𝙾𝚃 𝚆𝚒𝚝𝚑 𝙿𝚎𝚛𝚖𝚊𝚗𝚎𝚗𝚝 𝚃𝚑𝚞𝚖𝚋𝚗𝚊𝚒𝚕 & 𝙲𝚞𝚜𝚝𝚘𝚖 𝙲𝚊𝚙𝚝𝚒𝚘𝚗 𝚂𝚞𝚙𝚙𝚘𝚛𝚝! """,
+            text=f"""👋 <b>𝙷𝙰𝙸</b> {message.from_user.mention} \n\n<b>𝙸 𝙰𝙼 𝙰 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻𝙻 𝚁𝙴𝙽𝙰𝙼𝙴𝚁 𝙱𝙾𝚃 𝚆𝙸𝚃𝙷 𝙲𝚄𝚂𝚃𝙾𝙼 𝙲𝙰𝙿𝚃𝙸𝙾𝙽 & 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽𝚃 𝚃𝙷𝚄𝙼𝙱𝙽𝙰𝙸𝙻 𝚂𝚄𝙿𝙿𝙾𝚁𝚃...🧑‍💻</b>\n\n😎<b>𝙼𝚈 𝙾𝚆𝙽𝙴𝚁  :</b> <b><a href=https://t.me/ajay_king_x>♚ᴀᴊᴀʏ♚</a></b>""",
             reply_markup=InlineKeyboardMarkup( [[
                 InlineKeyboardButton("👼 𝙳𝙴𝚅𝚂 👼", callback_data='dev')                
                 ],[
-                InlineKeyboardButton('📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/PYRO_BOTZ'),
-                InlineKeyboardButton('🍂 𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url='https://t.me/PYRO_BOTZ_CHAT')
+                InlineKeyboardButton('📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢', url='https://t.me/Tamil_movie_studio'),
+                InlineKeyboardButton('🍿 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 🍿', url='https://t.me/+8LCFCFGUy_JlNDhl')
                 ],[
-                InlineKeyboardButton('🍃 𝙰𝙱𝙾𝚄𝚃', callback_data='about'),
-                InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿', callback_data='help')
+                InlineKeyboardButton('🍻 𝙰𝙱𝙾𝚄𝚃 🍻', callback_data='about'),
+                InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿 ℹ️', callback_data='help')
                 ]]
                 )
             )
@@ -104,12 +92,9 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.HELP_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("❣️ 𝚂𝙾𝚄𝚁𝙲𝙴", url="https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT")
+               InlineKeyboardButton("❣️ 𝚂𝙾𝚄𝚁𝙲𝙴 ❣️", url="https://t.me/ajay_king_x")
                ],[
-               InlineKeyboardButton("❤️‍🔥 𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴  ❤️‍🔥", url='https://youtu.be/BiC66uFJsio')
-               ],[
-               InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
-               InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
+               InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴 🔒", callback_data = "close")
                ]]
             )
         )
@@ -119,12 +104,11 @@ async def cb_handler(client, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("❣️ 𝚂𝙾𝚄𝚁𝙲𝙴", url="https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT")
+               InlineKeyboardButton("❣️ 𝚂𝙾𝚄𝚁𝙲𝙴 ❣️", url="https://t.me/ajay_king_x")
                ],[
-               InlineKeyboardButton("🖥️ 𝙷𝙾𝚆 𝚃𝙾 𝙼𝙰𝙺𝙴", url="https://youtu.be/GfulqsSnTv4")
+               InlineKeyboardButton("🖥️ 𝙷𝙾𝚆 𝚃𝙾 𝙼𝙰𝙺𝙴 🖥️", url="https://t.me/ajay_king_x")
                ],[
-               InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
-               InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
+               InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴 🔒", callback_data = "close")
                ]]
             )
         )
@@ -133,12 +117,11 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.DEV_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("❣️ 𝚂𝙾𝚄𝚁𝙲𝙴", url="https://github.com/TEAM-PYRO-BOTZ/PYRO-RENAME-BOT")
+               InlineKeyboardButton("❣️ 𝚂𝙾𝚄𝚁𝙲𝙴 ❣️", url="https://t.me/ajay_king_x")
                ],[
-               InlineKeyboardButton("🖥️ 𝙷𝙾𝚆 𝚃𝙾 𝙼𝙰𝙺𝙴", url="https://youtu.be/GfulqsSnTv4")
+               InlineKeyboardButton("🖥️ 𝙷𝙾𝚆 𝚃𝙾 𝙼𝙰𝙺𝙴 🖥️", url="https://t.me/ajay_king_x")
                ],[
-               InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
-               InlineKeyboardButton("◀️ 𝙱𝙰𝙲𝙺", callback_data = "start")
+               InlineKeyboardButton("🔒 𝙲𝙻𝙾𝚂𝙴 🔒", callback_data = "close")
                ]]
             )
         )
@@ -148,7 +131,6 @@ async def cb_handler(client, query: CallbackQuery):
             await query.message.reply_to_message.delete()
         except:
             await query.message.delete()
-
 
 
 
