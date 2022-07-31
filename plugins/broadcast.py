@@ -34,10 +34,10 @@ ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.envir
 @Client.on_message(filters.private & filters.user(ADMIN) & filters.command(["broadcast"]))
 async def broadcast(bot, message):
  if (message.reply_to_message):
-   ms = await message.reply_text("Geting All ids from database ...........")
+   ms = await message.reply_text("<b>🔎...𝙶𝙴𝚃𝚃𝙸𝙽𝙶 𝙰𝙻𝙻 𝙸𝙳𝚂 𝙵𝚁𝙾𝙼 𝚃𝙷𝙴 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴...🔎</b>")
    ids = getid()
    tot = len(ids)
-   await ms.edit(f"Starting Broadcast .... \n Sending Message To {tot} Users")
+   await ms.edit(f"<b>🌟 𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶 𝙱𝚁𝙾𝙰𝙳𝙲𝙰𝚂𝚃...</b> \n <b>𝚂𝙴𝙽𝙳𝙸𝙽𝙶 𝙼𝙴𝚂𝚂𝙰𝙶𝙴𝚂 𝚃𝙾</b> {tot} Users")
    for id in ids:
      try:
      	await message.reply_to_message.copy(id)
@@ -47,7 +47,7 @@ async def broadcast(bot, message):
 
 @Client.on_message(filters.private & filters.user(ADMIN) & filters.command(["users"]))
 async def get_users(client: Client, message: Message):
-    msg = await client.send_message(chat_id=message.chat.id, text="weit....")
+    msg = await client.send_message(chat_id=message.chat.id, text="<b>𝚆𝙰𝙸𝚃....</b>")
     ids = getid()
     tot = len(ids)
-    await msg.edit(f"Total uses = {tot}")
+    await msg.edit(f"<b>𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂</b> = {tot}")
