@@ -1,4 +1,4 @@
-#  𝐏𝐘𝐑𝐎 𝐑𝐄𝐍𝐀𝐌𝐄 𝐁𝐎𝐓
+#  PYRO RENAMER KADAISIYA
 
 Telegram File Renamer Bot 
 
