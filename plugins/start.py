@@ -46,7 +46,7 @@ async def start(client, message):
        reply_markup=InlineKeyboardMarkup( [[
                 InlineKeyboardButton("👼 𝙳𝙴𝚅𝚂 👼", callback_data='dev')                
                 ],[
-                InlineKeyboardButton('📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢', url='https://t.me/Tamil_movie_studio'),
+                InlineKeyboardButton('📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢', url='https://t.me/SkyMoviesHD_Linkz'),
                 InlineKeyboardButton('🍿 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 🍿', url='https://t.me/+nDC4f5uCcN9lZmNl')
                 ],[
                 InlineKeyboardButton('🍻 𝙰𝙱𝙾𝚄𝚃 🍻', callback_data='about'),
@@ -65,7 +65,7 @@ async def send_doc(client, message):
     await message.reply_text(
         f"""**𝚆𝙷𝙰𝚃 𝙳𝙾 𝚈𝙾𝚄 𝚆𝙰𝙽𝚃 𝙼𝙴 𝚃𝙾 𝙳𝙾 𝚆𝙸𝚃𝙷 𝚃𝙷𝙸𝚂 𝙵𝙸𝙻𝙴.?**\n\n**𝙵𝙸𝙻𝙴 𝙽𝙰𝙼𝙴** :- `{filename}`\n\n**𝙵𝙸𝙻𝙴 𝚂𝙸𝚉𝙴 :-** `{filesize}`""",
         reply_to_message_id = message.id,
-        reply_markup = InlineKeyboardMarkup([[ InlineKeyboardButton("📚 𝚁𝙴𝙽𝙰𝙼𝙴 📚",callback_data = "rename")],
+        reply_markup = InlineKeyboardMarkup([[ InlineKeyboardButton("💌 𝚁𝙴𝙽𝙰𝙼𝙴 💌",callback_data = "rename")],
         [InlineKeyboardButton("✖️ 𝙲𝙰𝙽𝙲𝙴𝙻 ✖️",callback_data = "cancel")  ]]))
 
 
@@ -78,7 +78,7 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup( [[
                 InlineKeyboardButton("👼 𝙳𝙴𝚅𝚂 👼", callback_data='dev')                
                 ],[
-                InlineKeyboardButton('📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢', url='https://t.me/Tamil_movie_studio'),
+                InlineKeyboardButton('📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢', url='https://t.me/SkyMoviesHD_Linkz'),
                 InlineKeyboardButton('🍿 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 🍿', url='https://t.me/+8LCFCFGUy_JlNDhl')
                 ],[
                 InlineKeyboardButton('🍻 𝙰𝙱𝙾𝚄𝚃 🍻', callback_data='about'),
