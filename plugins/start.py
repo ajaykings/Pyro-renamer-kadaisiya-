@@ -47,7 +47,7 @@ async def start(client, message):
                 InlineKeyboardButton("👼 𝙳𝙴𝚅𝚂 👼", callback_data='dev')                
                 ],[
                 InlineKeyboardButton('📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢', url='https://t.me/SkyMoviesHD_Linkz'),
-                InlineKeyboardButton('🍿 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 🍿', url='https://t.me/+nDC4f5uCcN9lZmNl')
+                InlineKeyboardButton('🍿 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 🍿', url='https://t.me/+RmXFvFPskrlmOGNl')
                 ],[
                 InlineKeyboardButton('🍻 𝙰𝙱𝙾𝚄𝚃 🍻', callback_data='about'),
                 InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿 ℹ️', callback_data='help')
@@ -79,7 +79,7 @@ async def cb_handler(client, query: CallbackQuery):
                 InlineKeyboardButton("👼 𝙳𝙴𝚅𝚂 👼", callback_data='dev')                
                 ],[
                 InlineKeyboardButton('📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢', url='https://t.me/SkyMoviesHD_Linkz'),
-                InlineKeyboardButton('🍿 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 🍿', url='https://t.me/+8LCFCFGUy_JlNDhl')
+                InlineKeyboardButton('🍿 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 🍿', url='https://t.me/+RmXFvFPskrlmOGNl')
                 ],[
                 InlineKeyboardButton('🍻 𝙰𝙱𝙾𝚄𝚃 🍻', callback_data='about'),
                 InlineKeyboardButton('ℹ️ 𝙷𝙴𝙻𝙿 ℹ️', callback_data='help')
